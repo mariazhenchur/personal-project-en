@@ -1,24 +1,24 @@
 const articles = [
     {
         id: "1",
-        name: "-15% Discount on 10 Tastes!",
-        description: "Hurry up to use your discount! We offer special prices on top spring tastes until 10 June.",
+        name: "Anne With An E",
+        description: "Description",
         imageDescription: "Ice Cream Tastes",
-        image: "images/blog-card-discount.png"
+        image: "images/article-anne-w.png"
     },
     {
         id: "2",
-        name: "The History of Ice Cream",
-        description: "Many people know that the original ice cream comes from Italy. Here is the whole story...",
+        name: "Lockwood & Co.",
+        description: "Description",
         imageDescription: "A couple with ice cream",
-        image: "images/blog-card-history.png"
+        image: "images/article-lockwood.png"
     },
     {
         id: "3",
-        name: "Celebrate Birthdays with Us!",
-        description: "Mr. Snowman's Birthday Parties are great for kids of all ages. We have lots of sweet treats.",
+        name: "The Queen's Gambit",
+        description: "Description",
         imageDescription: "Ice cream for birthday parties",
-        image: "images/blog-card-birthday.png"
+        image: "images/article-queen.png"
     },
 ];
 

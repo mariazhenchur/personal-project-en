@@ -8,6 +8,7 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
+  background-color:  #eac9c1;
 }
 
 .header__nav__burger-menu-icon {
@@ -26,6 +27,7 @@
   left: 0;
   background-color: var(--background-color);
   padding-top: 50px;
+  text-align: center;
 }
 
 .header__nav-list-left,

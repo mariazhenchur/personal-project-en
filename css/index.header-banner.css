@@ -1,6 +1,6 @@
 .header {
   max-width: 100%;
- /* height: 100vh;*/
+/*  height: 100vh; */
   background-color: var(--background-color);
   background-position: center;
   background-size: cover;
@@ -11,14 +11,16 @@
  /* min-width: 320px;
   font-size: 17px;
   font-weight: 400; */
+  padding-bottom: 50px;
 }
 
-/* .header__banner {
+ .header__banner {
   max-width: 1170px;
   width: 100%;
-  margin: 280px auto 0;
+/*  margin: 280px auto 0; */
+  margin: 100px auto 0;
   padding: 0 15px;
-} */
+} 
 
 .header__banner-container {
   display: flex;
@@ -27,13 +29,13 @@
 }
 
 .header__banner-container-pretitle {
-  font-family: "Leckerli One", cursive;
-  font-size: calc(14px + 7 * (100vw / 1200));
+  font-family: "Dangrek", cursive;
+  font-size: calc(58px + 22 * (100vw / 1200));
 }
 
 .header__banner-container-title {
   font-family: "Dangrek", cursive;
-  font-size: calc(58px + 22 * (100vw / 1200));
+  font-size: calc(30px + 7 * (100vw / 1200));
 }
 
 .header__banner-container-description {
@@ -66,17 +68,17 @@
 }
 
 .header__banner-container-button:first-of-type {
-  background-color: var(--price-color);
+  background-color: #b67256;
 }
 
 .header__banner-container-button:first-of-type:hover {
-  background-color: var(--contacts-background-color-secondary);
+  background-color: #b67256;
 }
 
 .header__banner-container-button:last-of-type {
-  background-color: var(--background-color-dark);
+  background-color: #b67256;
 }
 
 .header__banner-container-button:last-of-type:hover {
-  background-color: var(--about-us-background-color-dark);
+  background-color: #b67256;
 }
