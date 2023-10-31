@@ -13,11 +13,11 @@ a {
     font-family: 'Source Sans 3', sans-serif;
 }
 :root {
-    --text-color: rgb(255, 255, 255);
-    --text-color-alternative: rgb(225, 221, 232);
+    --text-color: black;
+    --text-color-alternative: black;
     --text-color-button-carousel: black;
     --price-color: rgb(255, 196, 82);
-    --background-color: #493b5f;
+    --background-color: #ecccbc;
     --background-color-dark: rgb(50, 38, 75);
     --about-us-background-color-light: #B87390;
     --about-us-background-color-dark: #A55376;
@@ -25,7 +25,7 @@ a {
     --about-us-text-color:  #E0DDDD;
     --menu-background-color-light: #6382a7;
     --menu-background-color-dark: #537398;
-    --blog-color-article-description: rgb(185, 177, 197);
+    --blog-color-article-description: black;
     --blog-button-color: #32264b; 
     --blog-button-hover-color: #b87390;
     --footer-divider-color: #9932CC;
