@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Leckerli+One&family=Source+Sans+3:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Source Sans 3', sans-serif;
+}
+:root {
+    --text-color: rgb(255, 255, 255);
+    --text-color-alternative: rgb(225, 221, 232);
+    --text-color-button-carousel: black;
+    --price-color: rgb(255, 196, 82);
+    --background-color: #493b5f;
+    --background-color-dark: rgb(50, 38, 75);
+    --about-us-background-color-light: #B87390;
+    --about-us-background-color-dark: #A55376;
+    --about-us-header-color: #FFFFFF;
+    --about-us-text-color:  #E0DDDD;
+    --menu-background-color-light: #6382a7;
+    --menu-background-color-dark: #537398;
+    --blog-color-article-description: rgb(185, 177, 197);
+    --blog-button-color: #32264b; 
+    --blog-button-hover-color: #b87390;
+    --footer-divider-color: #9932CC;
+    --footer-background-color: #32264b;
+    --contacts-background-color-secondary: rgb(248, 184, 61);
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.global-container {
+    max-width: 1200px;
+    margin:auto;
+}
+

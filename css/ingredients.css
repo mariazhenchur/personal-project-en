@@ -1,0 +1,71 @@
+.ingredients {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.ingredients-title {
+  font-family: "Leckerli One";
+  font-size: 1.6rem;
+}
+
+.ingredients-text {
+  text-align: left;
+}
+
+.ingredients-description-title {
+  font-family: "Dangrek", cursive;
+  font-size: 2.5rem;
+  line-height: 100px;
+  text-align: left;
+}
+
+.ingredients-description {
+  font-family: "Source Sans 3";
+  font-size: 1.25rem;
+  line-height: 30px;
+  text-align: left;
+}
+
+.our-ingredients-desc  {
+  line-height: 20px;
+  margin-top: 20px;
+  font-family: "Source Sans 3";
+  font-size: 1.2rem; 
+  line-height: 40px;
+}
+
+
+.description-text {
+  color: var(--blog-color-article-description);
+  font-family: "Source Sans 3";
+  font-size: 1.1rem;
+  line-height: 40px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.ice-cream-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 780px) {
+  .ingredients {
+      grid-template-columns: 1fr 1fr;
+  }
+  .ingredients-title {
+      line-height: 20px;
+  }
+
+  .ingredients-text {
+      text-align: left;
+  }
+}

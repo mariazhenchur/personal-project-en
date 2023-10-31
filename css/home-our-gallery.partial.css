@@ -1,0 +1,68 @@
+.gallery__title {
+  font-family: "Leckerli One", cursive;
+  font-size: 14px;
+  text-align: center;
+}
+
+.gallery__name {
+  font-size: 34px;
+  text-align: center;
+  font-family: "Dangrek", cursive;
+}
+
+.ice-cream-and-desserts {
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  color: var(--text-color-alternative);
+}
+
+.gallery__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 25px;
+  overflow: hidden;
+}
+
+.gallery__image-1,
+.gallery__image-2,
+.gallery__image-3,
+.gallery__image-4,
+.gallery__image-5 {
+  border-radius: 6px;
+}
+
+.gallery__images-group1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 300px;
+}
+
+.gallery__images-group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 300px;
+}
+
+.gallery__images-group3 {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1199px) {
+  .gallery__images {
+    gap: 10px;
+  }
+  .gallery__images-group1 {
+    width: 250px;
+    gap: 5px;
+  }
+  .gallery__images-group2 {
+    width: 250px;
+    gap: 5px;
+  }
+}

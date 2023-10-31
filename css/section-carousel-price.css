@@ -1,0 +1,212 @@
+.carousel__icecream_species {
+    padding: 60px 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel__icecream_name {
+    font-family: 'Leckerli One', cursive;
+    font-size: 14px;
+}
+
+.carousel__icecream_title {
+    font-family: 'Dangrek';
+    font-size: 34px;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.carousel__icecream_description {
+    font-family: 'Source Sans 3';
+    color: var(--text-color-alternative);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.carousel__menu_species {
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    align-items: center;
+}
+
+.carousel__icecream_alignment_conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 0px;
+}
+
+.carousel__icecream_alignment {
+    background-color: var(--background-color-dark);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 5px;
+    min-width: 263px;
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.carousel__icecream_alignment img {
+    width: 203px;
+}
+
+.alignment__title {
+    font-family: 'Dangrek';
+}
+
+.alignment__description {
+    font-family: 'Source Sans 3';
+    color: var(--text-color-alternative);
+    font-style: italic;
+}
+
+.alignment_price span {
+    color: var(--price-color);
+}
+
+.carousel__button_icecream_alignment--left,
+.carousel__button_icecream_alignment--right,
+.button__alignment_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    border: none;
+}
+
+.carousel__button_icecream_alignment--left,
+.carousel__button_icecream_alignment--right {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 32px;
+    height: 32px;
+    color: var(--text-color);
+    font-size: 18px;
+    z-index: 1;
+}
+
+.button__alignment_button {
+    background-color: var(--price-color);
+    width: 154px;
+    height: 59px;
+    color: var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16.5px;
+    border-radius: 35px;
+    margin-bottom: 24px;
+}
+
+.carousel__button_icecream_alignment--right {
+    margin: auto auto auto -16px;
+}
+
+.carousel__button_icecream_alignment--left {
+    margin: auto -16px auto auto;
+}
+
+@media (min-width: 992px) {
+    .carousel__icecream_name {
+        font-size: 21px;
+    }
+
+    .carousel__icecream_title {
+        font-size: 48px;
+    }
+
+    .carousel__icecream_description {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1198px) {
+    .carousel__button_icecream_alignment--left,
+    .carousel__button_icecream_alignment--right {
+        background-color: inherit;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+}
+
+/*Минулий код*/
+/*.carousel__icecream_name {
+    font-family: 'Leckerli One', cursive;
+    font-size: 14px;
+    text-align: center;
+}
+.carousel__icecream_title {
+    font-family: 'Dangrek';
+    font-size: 34px;
+    text-align: center;
+}
+.carousel__icecream_description {
+    font-family: 'Source Sans 3';
+    color: var(--text-color-alternative);
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+}
+.carousel__menu_species {
+    display: flex;
+    text-align: center;
+}
+.carousel__icecream_alignment{
+    background-color: var(--background-color-dark);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 5px;
+}
+.alignment__title {
+    font-family: 'Dangrek';
+}
+.alignment__description {
+    font-family: 'Source Sans 3';
+    color: var(--text-color-alternative);
+    font-style: italic;
+}
+.button__alignment_button {
+    background-color: var(--price-color);
+    width: 154px;
+    height: 59px;
+    color: var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+.carousel__button_icecream_alignment--left {
+    background-color: var(--text-color-button-carousel);  
+    color: var(--text-color);  
+    border-radius: 50%;  
+    border: none;  
+    width: 30px;  
+    height: 30px;  
+}
+.carousel__button_icecream_alignment--right {
+    background-color: var(--text-color-button-carousel);  
+    color: var(--text-color);  
+    border-radius: 50%;  
+    border: none;  
+    width: 30px;  
+    height: 30px;  
+}
+@media (max-width: 768px){
+    .carousel__menu_species {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 960px){
+    .carousel__menu_species {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}*/

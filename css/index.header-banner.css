@@ -1,0 +1,76 @@
+.header {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url(../images/header-banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header__banner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 280px auto 0;
+  padding: 0 15px;
+}
+
+.header__banner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.header__banner-container-pretitle {
+  font-family: "Leckerli One", cursive;
+  font-size: calc(14px + 7 * (100vw / 1200));
+}
+
+.header__banner-container-title {
+  font-family: "Dangrek", cursive;
+  font-size: calc(58px + 22 * (100vw / 1200));
+}
+
+.header__banner-container-description {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: var(--text-color-alternative);
+  margin-bottom: 50px;
+}
+
+.header__banner-container-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header__banner-container-button {
+  width: 154px;
+  height: 59px;
+  color: var(--text-color);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  transition: background-color 500ms;
+}
+
+.header__banner-container-button:first-of-type {
+  background-color: var(--price-color);
+}
+
+.header__banner-container-button:first-of-type:hover {
+  background-color: var(--contacts-background-color-secondary);
+}
+
+.header__banner-container-button:last-of-type {
+  background-color: var(--background-color-dark);
+}
+
+.header__banner-container-button:last-of-type:hover {
+  background-color: var(--about-us-background-color-dark);
+}

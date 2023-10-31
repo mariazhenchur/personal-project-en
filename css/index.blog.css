@@ -1,0 +1,106 @@
+.blog__title {
+    font-family: 'Leckerli One', cursive;
+    font-size: 14px;
+    text-align: center;
+}
+
+.blog__name {
+    font-family: 'Dangrek', cursive;
+    font-size: 34px;
+    text-align: center;
+}
+
+.blog__description {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    color: var(--text-color-alternative);
+    text-align: center;
+}
+
+.article__title {
+    font-family: 'Dangrek', cursive;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.blog {
+    padding: 60px 24px;
+    text-align: left;
+}
+
+.blog__articles img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 40px;
+}
+
+.article__description {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    color: var(--blog-color-article-description);
+    margin-top: 20px;
+}
+
+.blog__button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--blog-button-color);
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 35px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.blog__button:hover {
+    background-color: var(--blog-button-hover-color);
+}
+
+.blog__articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .blog__articles {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .blog__title {
+        font-size: 17px;
+    }
+
+    .blog__name {
+        font-size: 41px;
+    }
+
+    .article__title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 998px) {
+    .blog__articles {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .blog__title {
+        font-size: 21px;
+    }
+
+    .blog__name {
+        font-size: 48px;
+    }
+
+    .article__title {
+        font-size: 26px;
+    }
+}

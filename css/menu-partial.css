@@ -1,0 +1,88 @@
+.ingredients {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 5em;
+    padding: 40px;
+  }
+  
+  .ingredients-text {
+    flex: 1;
+    order: 2;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    vertical-align: baseline;
+  }
+  
+  .image-ice {
+    flex: 1;
+    order: 1;
+  }
+  
+  .ice-cream-image {
+    object-position: 50% 50%;
+    object-fit: contain;
+  }
+  
+  .our-ingredients-desc img {
+    color: #B87390;
+
+    display: flex;
+    width: 3%;
+    position: relative;
+  }
+  
+  .our-ingredients-desc img {
+    color: #B87390;
+
+    display: flex;
+    width: 3%;
+    position: relative;
+  }
+  
+  .ingredients-description-title {
+    font-family: "Dangrek", cursive;
+    font-size: 3rem;
+    line-height: 100px;
+    text-align: left;
+  }
+  
+  .ingredients-description {
+    font-family: "Source Sans 3";
+    font-size: 1.25rem;
+    line-height: 70px;
+    text-align: left;
+  }
+  
+  .ing-text {
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 40px;
+  }
+  
+  .description-text {
+    color: var(--blog-color-article-description);
+    font-family: "Source Sans 3";
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+  }
+  
+
+@media (min-width: 500px) {
+    .ingredients {
+    display: flex;
+    align-items: center;
+    }
+    .ingredients-text{
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .ice-cream-image {
+        display: flex;
+        flex-direction: row;
+    }
+
+}

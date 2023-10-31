@@ -1,0 +1,134 @@
+.menu__cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 30px;
+	max-width: 1200px;
+	padding: 24px;
+	padding-top: 600px;
+	padding-bottom: 100px;
+}
+
+.card_desserts {
+	background-image: url(../images/desserts_menu.png);
+}
+
+.card_milkshakes {
+	background-image: url(../images/milk_shakes_menu.png);
+}
+
+.card_icecream {
+	background-image: url(../images/ice_cream_menu.png);
+}
+
+.menu__card {
+	display: flex;
+	flex-direction: column;
+	padding-top: 65px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+}
+
+.card__title {
+	color: var(--text-color);
+	font-family: 'Dangrek', cursive;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.card__buttonDessert {
+	text-align: center;
+	color: var(--text-color);
+	background-color: var(--background-color-dark);
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	padding-top: 15px;
+	border-radius: 27px;
+	height: 50px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.card__buttonMilkshake {
+	text-align: center;
+	color: var(--text-color);
+	background-color: var(--about-us-background-color-light);
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	padding-top: 15px;
+	border-radius: 27px;
+	height: 50px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.card__buttonIcecream {
+	text-align: center;
+	color: var(--text-color);
+	background-color: var(--background-color-dark);
+	font-family: 'Source Sans 3', sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	padding-top: 15px;
+	border-radius: 27px;
+	height: 50px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.card__buttonDessert:hover {
+	background-color: var(--about-us-background-color-light);
+}
+
+.card__buttonMilkshake:hover {
+	background-color: var(--background-color-dark);
+}
+
+.card__buttonIcecream:hover {
+	background-color: var(--about-us-background-color-light);
+}
+
+@media (min-width: 768px) {
+	.menu__cards {
+		grid-template-columns: 1fr 1fr;
+		padding-top: 300px;
+	}
+
+	.menu__card {
+		height: 500px;
+		position: relative;
+	}
+
+	.card__title {
+		position: absolute;
+		top: 7%;
+	}
+
+	.card__buttonDessert {
+		position: absolute;
+		top: 25%;
+	}
+
+	.card__buttonMilkshake {
+		position: absolute;
+		top: 25%;
+	}
+
+	.card__buttonIcecream {
+		position: absolute;
+		top: 25%;
+	}
+}
+
+@media (min-width: 920px) {
+	.menu__cards {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

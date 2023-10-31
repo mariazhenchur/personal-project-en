@@ -1,0 +1,121 @@
+/*font-family*/
+.menu-headers-sections-name {
+    font-family: 'Leckerli One', cursive;
+    font-size: 14px;
+}
+.menu-headers-paragraph-welcome,
+.menu-nav-sections-button {
+    font-family: 'Source Sans 3', sans-serif;
+}
+.menu-headers-big-paragraph,
+.menu-position-name {
+    font-family: 'Dangrek', cursive;
+}
+/*font-family*/
+
+#home-our-menu {
+    padding: 60px 24px;
+    text-align: center;
+}
+
+.menu-headers-paragraph-welcome {
+    color: var(--text-color-alternative);
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.menu-headers-big-paragraph {
+    font-size: 34px;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+.menu-nav {
+    display: inline-flex;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--text-color-alternative);
+    width: 100%;
+}
+
+.menu-nav-sections-button {
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 18px;
+    border: none;
+    padding: 15px 20px;
+    opacity: .6;
+}
+
+.menu-nav-sections-button:hover {
+    opacity: 1;
+}
+
+.menu-nav-sections-button-active {
+    opacity: 1;
+    border-bottom: 3px solid var(--blog-button-hover-color)
+}
+
+.menu-pages {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-content: space-around;
+}
+
+.menu-position {
+    background-color: var(--background-color-dark);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.menu-position-img {
+    margin: auto;
+    height: 265px;
+}
+
+.menu-position-img img{
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.menu-position-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+}
+
+.menu-position-price,
+.menu-position-name {
+    font-size: 22px;
+}
+
+.menu-position-price{
+    color: var(--price-color);
+}
+
+@media (min-width: 768px){
+    .menu-pages {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px){
+    .menu-pages {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .menu-nav{
+        justify-content: center;
+    }
+    .menu-headers-sections-name {
+        font-size: 21px;
+    }
+    .menu-headers-big-paragraph {
+        font-size: 48px;
+    }
+    .menu-headers-paragraph-welcome {
+        font-size: 20px;
+    }
+}

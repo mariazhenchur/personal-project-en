@@ -1,0 +1,21 @@
+.questions {
+    background-color: var(--about-us-background-color-light);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+}
+.questions__header {
+    font-family: "Dangrek", cursive;
+    font-size: 30px;
+    line-height: normal;
+}
+.questions__paragraph {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    color: var(--about-us-text-color); 
+    line-height: 28,8px;
+}
+.questions__header, .questions__paragraph, .questions__accordion {
+    text-align: center;
+    width: 75%; 
+}

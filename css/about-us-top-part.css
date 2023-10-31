@@ -1,0 +1,142 @@
+.about-us__header {
+    background-color: var(--about-us-background-color-dark);
+    padding: 0;
+    margin: 0;
+}
+
+.about-us__nav-header{
+    background-color: var(--about-us-background-color-dark);
+    padding: 70px 0 90px;
+}
+
+.header__title {
+    font-family: "Dangrek", cursive;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.about-us__main-container {
+    background-color: var(--about-us-background-color-light);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 24px;
+    padding-right: 24px;  
+}
+
+.about-us-main{
+    background-color: var(--about-us-background-color-light);
+    margin: 0;
+    padding: 0;
+}
+
+.advantage_item {
+    padding-top: 50px;
+}
+
+.about-us__text_part-bold {
+    font-family: "Dangrek", cursive;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages {
+    padding-bottom: 60px;
+}
+
+.about-us__text_part, .advantages__text, .about-us__text_nextpart {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    color: var(--about-us-text-color); 
+    line-height: 28,8px;  
+    font-weight: 100;
+}
+
+.about-us__text_part {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.advantages__heading {
+    font-family: "Dangrek", cursive;
+    font-size: 22px;
+    padding: 20px 0 20px;
+}
+
+.foto {
+    padding:60px 0;
+}
+
+.advantage_picture {
+    width: 50px; 
+    height: 50px; 
+    background-color: var(--about-us-background-color-dark); 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage_picture img {
+    max-width: 26px;
+    max-height: 26px; 
+}
+
+@media (min-width: 768px) {
+
+    .about-us__text_part-bold {
+        font-size: 36px;
+        line-height: 46.8px;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+    }
+
+    .advantages {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+
+    .about-us__text_part {
+        padding-top: 0;
+    }
+    .advantage_picture {
+        width: 70px; 
+        height: 70px; 
+        background-color: var(--about-us-background-color-dark); 
+        border-radius: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .advantage_picture img {
+        max-width: 40px;
+        max-height: 40px; 
+    }
+    .advantage_item {
+        width: auto;
+        
+    }
+    .about-us {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 80px;
+    }
+
+    .about-us__text {
+        width: auto;
+    }
+}
+
+
+
+
+
+
