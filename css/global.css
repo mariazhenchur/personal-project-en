@@ -17,7 +17,8 @@ a {
     --text-color-alternative: black;
     --text-color-button-carousel: black;
     --price-color: rgb(255, 196, 82);
-    --background-color:  #d3ab9e;
+   /* --background-color:  #d3ab9e; */
+    --background-color:  #fff1e6;
     --background-color-dark: rgb(50, 38, 75);
     --about-us-background-color-light: #B87390;
     --about-us-background-color-dark: #A55376;
