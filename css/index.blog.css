@@ -2,18 +2,20 @@
     font-family: 'Dangrek', cursive;
     font-size: 34px;
     text-align: center;
+    color: #a38e84;
 }
 
 .blog__name {
     font-family: 'Dangrek', cursive;
     font-size: 25px;
     text-align: center;
+    color: #a38e84;
 }
 
 .blog__description {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
-    color: var(--text-color-alternative);
+    color: #a38e84;
     text-align: center;
 }
 
@@ -21,6 +23,7 @@
     font-family: 'Dangrek', cursive;
     font-size: 22px;
     font-weight: 400;
+    color: #a38e84;
 }
 
 .blog {
@@ -42,7 +45,7 @@
 .article__description {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 18px;
-    color: var(--blog-color-article-description);
+    color: #a38e84;
     margin-top: 20px;
 }
 
@@ -50,7 +53,7 @@
     display: inline-block;
     padding: 15px 30px;
     background-color: #b67256;
-    color: black;
+    color: #a38e84;
     text-decoration: none;
     font-size: 15px;
     cursor: pointer;
