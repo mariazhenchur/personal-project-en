@@ -8,7 +8,9 @@ img {
 .about-us__header {
     background-color: #fff1e6 ;
 }
-
+.carousel {
+    background-color: #fff1e6;
+}
 .about__carousel-container {
     background-color: #fff1e6;
     display:flex;
@@ -90,4 +92,3 @@ img {
         display: flex;
     }
 }
-
