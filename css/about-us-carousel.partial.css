@@ -5,8 +5,12 @@ img {
     width: 100%;
 }
 
+.about-us__header {
+    background-color: #fff1e6 ;
+}
+
 .about__carousel-container {
-    background-color: var(--about-us-background-color-light);
+    background-color: #fff1e6;
     display:flex;
     margin: auto;
     max-width: 1200px;
@@ -14,7 +18,7 @@ img {
 
 .about_carousel-container {
     margin: auto;
-    /* max-width: 1200px; */
+    /* max-width: 1200px; 
    
 }
 
