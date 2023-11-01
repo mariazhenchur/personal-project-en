@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  color: #a38e84;
+  color: #b67256;
  /* display: block;
   flex-basis: 100%;
  /* padding: 130px 0 135px; */
@@ -30,22 +30,22 @@
 }
 
 .header__banner-container-pretitle {
-  font-family: "Dangrek", cursive;
+  font-family: "Chewy";
   font-size: calc(58px + 22 * (100vw / 1200));
 }
 
 .header__banner-container-title {
-  font-family: "Dangrek", cursive;
+  font-family: "Chewy";
   font-size: calc(30px + 7 * (100vw / 1200));
 }
 
 .header__banner-container-description {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Nanum Pen Script", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0.4px;
-  color: var(--text-color-alternative);
+  color: #b67256;
   margin-bottom: 50px;
 }
 
@@ -58,8 +58,8 @@
 .header__banner-container-button {
   width: 154px;
   height: 59px;
-  color: var(--text-color);
-  font-family: "Source Sans 3", sans-serif;
+  color: black;
+  font-family: "Nanum Pen Script", sans-serif;
   font-size: 16.5px;
   display: flex;
   justify-content: center;

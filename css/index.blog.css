@@ -1,29 +1,29 @@
 .blog__title {
-    font-family: 'Dangrek', cursive;
+    font-family: 'Chewy';
     font-size: 34px;
     text-align: center;
-    color: #a38e84;
+    color: #b67256;
 }
 
 .blog__name {
-    font-family: 'Dangrek', cursive;
+    font-family: 'Chewy';
     font-size: 25px;
     text-align: center;
-    color: #a38e84;
+    color: #b67256;
 }
 
 .blog__description {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Nanum Pen Script', sans-serif;
     font-size: 20px;
-    color: #a38e84;
+    color: #b67256;
     text-align: center;
 }
 
 .article__title {
-    font-family: 'Dangrek', cursive;
+    font-family: 'Chewy';
     font-size: 22px;
     font-weight: 400;
-    color: #a38e84;
+    color: #b67256;
 }
 
 .blog {
@@ -43,9 +43,9 @@
 }
 
 .article__description {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Nanum Pen Script', sans-serif;
     font-size: 18px;
-    color: #a38e84;
+    color: #b67256;
     margin-top: 20px;
 }
 
@@ -53,12 +53,12 @@
     display: inline-block;
     padding: 15px 30px;
     background-color: #b67256;
-    color: #a38e84;
+    color: black;
     text-decoration: none;
     font-size: 15px;
     cursor: pointer;
     border-radius: 35px;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Nanum Pen Script', sans-serif;
     margin-top: 30px;
     transition: background-color 0.3s ease;
 }
