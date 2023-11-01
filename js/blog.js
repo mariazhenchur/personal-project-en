@@ -2,7 +2,7 @@ const articles = [
     {
         id: "1",
         name: "Anne With An E",
-        description: "Step into Anne's enchanting world in 'Anne with an E.' Immerse in English with interactive subtitles and vocabulary tools while following Anne's heartwarming journey in Green Gables. It's not just a series; it's your gateway to learn English through Anne's magic.",
+        description: "Dive into the enchanting world of Anne as you explore a section featuring vocabulary from this series. Immerse yourself in the captivating stories of Anne in picturesque Avonlea while gaining valuable insights into the English language",
         imageDescription: "Ice Cream Tastes",
         image: "images/article-anne-w.png"
     },
@@ -16,7 +16,7 @@ const articles = [
     {
         id: "3",
         name: "The Queen's Gambit",
-        description: "Master English with 'The Queen's Gambit.' Join Beth's chess journey, enhance your language skills with interactive subtitles, and dive into the world of grandmaster-level competition. It's your chance to make a winning move for language proficiency.",
+        description: "Master English with 'The Queen's Gambit.' Join Beth's chess journey, enhance your language skills with different words, and dive into the world of grandmaster-level competition. It's your chance to make a winning move for language proficiency.",
         imageDescription: "Ice cream for birthday parties",
         image: "images/article-queen.png"
     },
