@@ -40,7 +40,7 @@
 }
 
 .header__banner-container-description {
-  font-family: "Nanum Pen Script", sans-serif;
+  font-family: "Patrick hand", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
@@ -58,8 +58,8 @@
 .header__banner-container-button {
   width: 154px;
   height: 59px;
-  color: black;
-  font-family: "Nanum Pen Script", sans-serif;
+  color: #fff1e6;
+  font-family: "Patrick hand", sans-serif;
   font-size: 16.5px;
   display: flex;
   justify-content: center;

@@ -13,7 +13,7 @@
 }
 
 .blog__description {
-    font-family: 'Nanum Pen Script', sans-serif;
+    font-family: 'Patrick hand', sans-serif;
     font-size: 20px;
     color: #b67256;
     text-align: center;
@@ -43,7 +43,7 @@
 }
 
 .article__description {
-    font-family: 'Nanum Pen Script', sans-serif;
+    font-family: 'Patrick hand', sans-serif;
     font-size: 18px;
     color: #b67256;
     margin-top: 20px;
@@ -53,12 +53,12 @@
     display: inline-block;
     padding: 15px 30px;
     background-color: #b67256;
-    color: black;
+    color: #fff1e6;
     text-decoration: none;
     font-size: 15px;
     cursor: pointer;
     border-radius: 35px;
-    font-family: 'Nanum Pen Script', sans-serif;
+    font-family: 'Patrick hand', sans-serif;
     margin-top: 30px;
     transition: background-color 0.3s ease;
 }
