@@ -32,7 +32,7 @@ function renderBlogArticles(articles) {
             <img class="article__image" src="${article.image}" alt="${article.imageDescription}">
             <h4 class="article__title">${article.name}</h4>
             <p class="article__description">${article.description}</p>
-            <a class="blog__button" href="#">Learn More</a>
+            <a class="blog__button" href="about-us">Learn More</a>
         </div>
         `;
     }
