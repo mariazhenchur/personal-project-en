@@ -448,21 +448,7 @@ body {
 
 
 
-.custom-container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-}
 
-.falling-image {
-    position: absolute;
-    top: 0;
-    transition: top 2s ease;
-}
-
-.falling-image.fallen {
-    top: 100%;
-}
 
 
 
