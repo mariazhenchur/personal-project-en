@@ -1,6 +1,4 @@
 document.addEventListener("partialsLoaded", async () => {
   await import("./burger-menu.js");
   await import('./blog.js');
-  await import('./section-carousel-price.js');
-  await import('./queen.js');
 });
