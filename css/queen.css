@@ -151,23 +151,41 @@ body {
     position: relative;
 }
 
-.words-queen__content span:before {
+ .words-queen__content span:before {
     content: "";
     background: url(/images/queen-figure.png) no-repeat;
-    /* Replace with your image path */
+    
     background-size: 30px;
-    /* Adjust the image size as needed */
+    
     width: 30px;
-    /* Adjust the image width as needed */
+   
     height: 30px;
-    /* Adjust the image height as needed */
+    
     position: absolute;
     left: 0;
     top: 50%;
-    /* Adjust the vertical alignment as needed */
+    
     transform: translateY(-50%);
-    /* Center the image vertically */
-}
+    
+} 
+
+.words-queen__content span:after {
+    content: "";
+    background: url(/images/queen-figure.png) no-repeat;
+    
+    background-size: 30px;
+    
+    width: 30px;
+   
+    height: 30px;
+    
+    position: absolute;
+    left: 0;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+} 
 
 
 
