@@ -12,11 +12,11 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  background-color:  #e8d1c5;
+  background-color:  #fff1e6;
 }
 
 .header__nav__burger-menu-icon {
-  stroke: var(--text-color);
+  
   width: 50px;
   height: 50px;
 }
@@ -56,7 +56,7 @@
 }
 
 .header__nav-list-item-link:hover {
-  border-bottom: 3px solid var(--about-us-background-color-light);
+  border-bottom: 3px solid none;
 }
 
 .header__nav-logo {
