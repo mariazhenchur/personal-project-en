@@ -192,33 +192,6 @@ body {
 
 
 
-.custom-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .custom-list-item {
-    margin: 10px 0;
-    padding-left: 30px;
-    position: relative;
-  }
-  
-  .custom-list-item::before {
-    content: "";
-    width: 20px; /* Adjust the width of the image */
-    height: 20px; /* Adjust the height of the image */
-    background-image: url(/images/blue.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-
 
 
 
