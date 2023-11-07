@@ -34,7 +34,7 @@ a {
     --footer-background-color: #32264b;
     --contacts-background-color-secondary: rgb(248, 184, 61);
     scroll-behavior: smooth;
-    background-color: var(--background-color);
+    background-color: #fff1e6;
     color: var(--text-color);
 }
 
